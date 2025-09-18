@@ -1,6 +1,6 @@
-from Missão4.pessoa import pessoa
+from Pessoa import Pessoa
 
-class PessoaJuridica(pessoa):
+class PessoaJuridica(Pessoa):
     def __init__(self, nome, numeroConta, dataAberturaConta, status, dataAberturaEmpresa, cnpj):
         super().__init__(nome, numeroConta, dataAberturaConta, status)
         self.__dataAberturaEmpresa = dataAberturaEmpresa
