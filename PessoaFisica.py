@@ -1,4 +1,4 @@
-from Missão4.pessoa import Pessoa
+from Pessoa import Pessoa
 
 class PessoaFisica(Pessoa):
     def __init__(self, nome, numeroConta, dataAberturaConta, status, dataNascimento, cpf, rg):
